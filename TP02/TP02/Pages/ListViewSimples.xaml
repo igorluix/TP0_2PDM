@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.Pages.ListViewSimples">
+    <ContentPage.Content>
+                <ListView>
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Esse é um ListView</x:String>
+                    <x:String>Sobre algumas informações sobre o TP02 de PDM</x:String>
+                    <x:String>Rodrigo Santos - CB3000478</x:String>
+                    <x:String>Fabiano Dias - CB3000192</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
